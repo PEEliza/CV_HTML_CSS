@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background: linear-gradient(135deg, #4A1D68, #E71C5D, #F76B1C, #FFC100);
+    color: white; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+      
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    background-color: #581845;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+}
+
+.contact-info, .experience, .education, .skills {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.skill-category {
+    margin-bottom: 10px;
+}
+.nivel{
+    color: #00FF00;
+}
+
+footer {
+    background: linear-gradient(135deg, #4A1D68, #E71C5D, #F76B1C, #FFC100);
+    color: white; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio hacia arriba */
+    transform-style: preserve-3d;
+  transform: rotateX(2deg) rotateY(2deg) rotateZ(2deg);
+  perspective: 300px;
+}
+h4{
+    color:white;
+}
+.form-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #E71C5D; /* Color del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-link:hover {
+    background-color: #FF5733; /* Color al pasar el cursor */
+}
+
+
+/* Estilos para dispositivos más grandes */
+@media (min-width: 768px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
