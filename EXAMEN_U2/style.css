@@ -80,10 +80,11 @@ h4{
     color:white;
 }
 .form-link {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding: 10px 20px;
     color: white;
-    background-color: #E71C5D; /* Color del botón */
+    background-color: #64c700; /* Color del botón */
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
